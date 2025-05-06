@@ -4,192 +4,154 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Festejando a Conexão Campo & Cidade</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Montserrat', Arial, sans-serif;
-      background: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(90deg, #4caf50 60%, #2196f3 100%);
-      color: #fff;
-      padding: 40px 0 20px 0;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    nav {
-      margin: 30px 0 0 0;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 18px;
-      font-weight: 700;
-      padding: 10px 20px;
-      border-radius: 25px;
-      transition: background 0.2s;
-    }
-    nav a:hover {
-      background: rgba(255,255,255,0.18);
-    }
-    .container {
-      max-width: 1100px;
-      margin: 40px auto;
-      background: #fff;
-      border-radius: 18px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-      padding: 36px 28px;
-    }
-    h2 {
-      color: #2196f3;
-      margin-top: 0;
-    }
-    .flex {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 32px;
-      margin-bottom: 32px;
-    }
-    .flex .card {
-      flex: 1 1 300px;
-      background: #f0f8ff;
-      border-radius: 14px;
-      overflow: hidden;
-      box-shadow: 0 2px 8px rgba(33,150,243,0.07);
-      transition: transform 0.2s;
-    }
-    .flex .card:hover {
-      transform: translateY(-6px) scale(1.03);
-    }
-    .card img {
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-      display: block;
-    }
-    .card-content {
-      padding: 18px;
-    }
-    .galeria {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-    }
-    .galeria img {
-      width: 100%;
-      border-radius: 12px;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 2px 8px rgba(76,175,80,0.07);
-      cursor: pointer;
-    }
-    .galeria img:hover {
-      transform: scale(1.07);
-      box-shadow: 0 4px 16px rgba(33,150,243,0.15);
-    }
-    .cta {
-      text-align: center;
-      margin: 44px 0 10px 0;
-    }
-    .cta button {
-      background: #4caf50;
-      color: #fff;
-      border: none;
-      border-radius: 25px;
-      padding: 16px 38px;
-      font-size: 1.1em;
-      font-weight: 700;
-      cursor: pointer;
-      box-shadow: 0 2px 8px rgba(76,175,80,0.16);
-      transition: background 0.2s, transform 0.2s;
-    }
-    .cta button:hover {
-      background: #388e3c;
-      transform: scale(1.05);
-    }
-    @media (max-width: 800px) {
-      .flex {
-        flex-direction: column;
-      }
-      .container {
-        padding: 16px 5vw;
-      }
-    }
-  </style>
+  <!-- Fontes Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <!-- Conexão com o CSS -->
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <header>
-    <h1>Festejando a Conexão entre o Campo e a Cidade</h1>
+    <h1>🌾 Festejando a Conexão entre o Campo e a Cidade 🏙️</h1>
     <nav>
       <a href="#sobre">Sobre</a>
-      <a href="#sustentabilidade">Sustentabilidade</a>
+      <a href="#inovacao">Inovação</a>
+      <a href="#curiosidades">Curiosidades</a>
       <a href="#galeria">Galeria</a>
       <a href="#contato">Contato</a>
     </nav>
   </header>
-  <div class="container" id="sobre">
-    <h2>Sobre o Evento</h2>
-    <p>
-      O evento <strong>Festejando a Conexão entre o Campo e a Cidade</strong> celebra a união de saberes, culturas e inovações entre o mundo rural e o urbano. Aqui, promovemos o diálogo, a troca de experiências e a valorização de tudo que o campo e a cidade têm a oferecer juntos, construindo um futuro mais sustentável, inovador e integrado para todos.
-    </p>
-    <div class="flex">
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Campo fértil">
-        <div class="card-content">
-          <h3>Tradição e Modernidade</h3>
-          <p>O campo traz tradição, cultura e alimentos, enquanto a cidade impulsiona inovação, tecnologia e mercado. Juntos, constroem um Brasil mais forte.</p>
+  <main>
+    <section class="container central" id="sobre">
+      <h2>Sobre o Evento</h2>
+      <p>
+        O <strong>Festejando a Conexão entre o Campo e a Cidade</strong> é um evento inovador que celebra a união entre o rural e o urbano. Aqui, você descobre como o campo e a cidade se complementam, promovendo sustentabilidade, tecnologia, cultura e qualidade de vida para todos.
+      </p>
+      <div class="flex">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Campo fértil">
+          <div class="card-content">
+            <h3>Tradição e Modernidade</h3>
+            <p>O campo preserva tradições e saberes ancestrais, enquanto a cidade impulsiona a inovação e a tecnologia. Juntos, constroem um futuro mais equilibrado.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Cidade vibrante">
+          <div class="card-content">
+            <h3>Economia Circular</h3>
+            <p>Produtos do campo abastecem a cidade, que devolve inovação e infraestrutura para o campo. Uma relação de troca e crescimento mútuo.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80" alt="Pessoas conectadas">
+          <div class="card-content">
+            <h3>Cultura e Educação</h3>
+            <p>Feiras, oficinas e projetos educativos unem crianças, jovens e adultos, promovendo respeito e conhecimento mútuo.</p>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Cidade vibrante">
-        <div class="card-content">
-          <h3>Economia Integrada</h3>
-          <p>O agronegócio e a indústria urbana se complementam, gerando empregos, renda e desenvolvimento para todos os brasileiros.</p>
+      <div class="infos-extra">
+        <h4>Sabia que?</h4>
+        <ul>
+          <li>Mais de 80% dos alimentos consumidos nas cidades vêm do campo brasileiro.</li>
+          <li>O campo já utiliza drones, sensores e inteligência artificial para otimizar a produção.</li>
+          <li>Projetos urbanos de hortas comunitárias aproximam moradores da origem dos alimentos.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container central" id="inovacao">
+      <h2>Inovação & Tecnologia</h2>
+      <div class="flex">
+        <div class="card tech">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Sustentabilidade">
+          <div class="card-content">
+            <h3>Agricultura Digital</h3>
+            <p>Uso de sensores, drones e big data no campo para monitorar plantações, prever safras e economizar recursos naturais.</p>
+          </div>
+        </div>
+        <div class="card tech">
+          <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80" alt="Inovação tecnológica">
+          <div class="card-content">
+            <h3>Cidades Inteligentes</h3>
+            <p>Aplicativos, mobilidade elétrica e hortas urbanas conectam o cidadão à produção sustentável e à natureza.</p>
+          </div>
+        </div>
+        <div class="card tech">
+          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Tecnologia">
+          <div class="card-content">
+            <h3>Internet das Coisas (IoT)</h3>
+            <p>Dispositivos conectados permitem irrigação automática, controle de energia e monitoramento ambiental em tempo real.</p>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80" alt="Pessoas conectadas">
-        <div class="card-content">
-          <h3>Cultura e Educação</h3>
-          <p>Eventos, feiras e projetos educativos aproximam crianças, jovens e adultos, promovendo respeito e conhecimento mútuo.</p>
-        </div>
+      <div class="cta">
+        <button onclick="window.open('https://www.agroinovacao.com.br', '_blank')">Saiba mais sobre AgroInovação</button>
       </div>
-    </div>
-  </div>
-  <div class="container" id="sustentabilidade">
-    <h2>Sustentabilidade & Inovação</h2>
-    <div class="flex">
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Sustentabilidade">
-        <div class="card-content">
-          <h3>Práticas Sustentáveis</h3>
-          <p>O uso consciente dos recursos naturais e a adoção de tecnologias limpas garantem produção agrícola e urbana responsável.</p>
-        </div>
+    </section>
+
+    <section class="container central curiosidades" id="curiosidades">
+      <h2>Curiosidades Tecnológicas</h2>
+      <ul>
+        <li>O Brasil é líder mundial em agricultura de precisão!</li>
+        <li>Já existem tratores autônomos guiados por GPS no campo.</li>
+        <li>Mercados urbanos estão usando aplicativos para conectar consumidores diretamente a produtores locais.</li>
+        <li>Em algumas cidades, resíduos orgânicos urbanos viram adubo para hortas comunitárias.</li>
+      </ul>
+      <div class="cta">
+        <a href="#sobre" class="voltar">Voltar ao topo</a>
       </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=600&q=80" alt="Inovação tecnológica">
-        <div class="card-content">
-          <h3>Inovação no Agro e na Cidade</h3>
-          <p>Novas ferramentas digitais, energias renováveis e automação conectam o campo à cidade, melhorando a vida de todos.</p>
-        </div>
+    </section>
+
+    <section class="container central" id="galeria">
+      <h2>Galeria Interativa</h2>
+      <div class="galeria">
+        <img src="https://images.unsplash.com/photo-1444065381814-865dc9da92c0?auto=format&fit=crop&w=400&q=80" alt="Feira rural" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3fdc?auto=format&fit=crop&w=400&q=80" alt="Mercado urbano" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Plantação" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Crianças aprendendo" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Tecnologia no campo" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=400&q=80" alt="Cultura rural" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Cidade e campo" onclick="openModal(this)">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Sustentabilidade" onclick="openModal(this)">
       </div>
-    </div>
-  </div>
-  <div class="container" id="galeria">
-    <h2>Galeria de Imagens</h2>
-    <div class="galeria">
-      <img src="https://images.unsplash.com/photo-1444065381814-865dc9da92c0?auto=format&fit=crop&w=400&q=80" alt="Feira rural">
-      <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3fdc?auto=format&fit=crop&w=400&q=80" alt="Mercado urbano">
-      <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Crianças aprendendo">
-      <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3fdc?auto=format&fit=crop&w=400&q=80" alt="Tecnologia no campo">
-    </div>
-  </div>
-  <div class="container cta" id="contato">
-    <h2>Vamos nos Conectar!</h2>
-    <p>Participe, envie sua dúvida ou sugestão. Juntos, campo e cidade são mais fortes!</p>
-    <button onclick="alert('Obrigado pelo seu interesse! Em breve entraremos em contato.')">Entrar em contato</button>
-  </div>
+      <!-- Modal para galeria -->
+      <div id="modal" class="modal" onclick="closeModal()">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="modal-caption"></div>
+      </div>
+    </section>
+
+    <section class="container central" id="contato">
+      <h2>Vamos nos Conectar!</h2>
+      <p>Participe, envie sua dúvida ou sugestão. Juntos, campo e cidade são mais fortes!</p>
+      <form class="contato-form" onsubmit="return enviarFormulario(event)">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>🌱 Festejando a Conexão entre o Campo e a Cidade &copy; 2025 | Desenvolvido por Comunidade AgroTech 🚜</p>
+  </footer>
+  <script>
+    // Modal da galeria
+    function openModal(img) {
+      document.getElementById("modal").style.display = "block";
+      document.getElementById("modal-img").src = img.src;
+      document.getElementById("modal-caption").innerHTML = img.alt;
+    }
+    function closeModal() {
+      document.getElementById("modal").style.display = "none";
+    }
+    // Formulário interativo
+    function enviarFormulario(event) {
+      event.preventDefault();
+      alert('Mensagem enviada! Obrigado pelo seu contato.');
+      return false;
+    }
+  </script>
 </body>
 </html>
