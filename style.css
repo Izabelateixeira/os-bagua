@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Quicksand', 'Roboto', Arial, sans-serif;
+    font-family: "DM Serif Text", serif;
     background: linear-gradient(135deg, #e3f6fd 0%, #f5fff7 100%);
     color: #222;
   }
@@ -12,8 +12,8 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
   header h1 {
-    font-family: 'Orbitron', 'Roboto', Arial, sans-serif;
-    font-size: 2.3em;
+    font-family: "DM Serif Text", serif;
+    font-size: 3.0em;
     letter-spacing: 1px;
     margin: 0 0 8px 0;
     text-shadow: 1px 1px 8px #1e88e5a1;
@@ -55,18 +55,18 @@ body {
   }
   h2 {
     color: #1b1b1b;
-    font-family: 'Orbitron', 'Roboto', Arial, sans-serif;
+    font-family: "DM Serif Text", serif;
     margin-top: 0;
     font-size: 2em;
     letter-spacing: 1px;
   }
   h3 {
     color: #2196f3;
-    font-family: 'Quicksand', Arial, sans-serif;
+    font-family: "DM Serif Text", serif;
   }
   h4 {
     color: #4caf50;
-    font-family: 'Quicksand', Arial, sans-serif;
+    font-family: "DM Serif Text", serif;
   }
   .flex {
     display: flex;
@@ -222,8 +222,7 @@ body {
     box-shadow: 0 -2px 8px #2196f344;
     margin-top: 30px;
   }
-  
-  /* Modal da galeria */
+
   .modal {
     display: none;
     position: fixed;
@@ -265,7 +264,7 @@ body {
     font-family: 'Quicksand', Arial, sans-serif;
   }
   
-  /* Responsividade */
+
   @media (max-width: 900px) {
     .container.central {
       padding: 18px 3vw 20px 3vw;
